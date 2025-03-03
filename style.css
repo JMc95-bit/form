@@ -1,0 +1,17 @@
+
+body {background-color: rgb(215, 223, 238);}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
