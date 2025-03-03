@@ -8,24 +8,72 @@
 
 </head>
 <body>
-  <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+  
+       <header> Contact email for researcher: jmcleo201@caledonian.ac.uk</header>
+    <h1>Participant Consent Form</h1>
+    
+    <h2>About this research</h2>
+    <p>
+        This project is being conducted by Joanna McLeod under the supervision of Dr Salma Mohamed and Glasgow Caledonian Universities Cyber Security and Networks department. <br>
+        The purpose of this research is to determine whether interaction with an education tool will significantly affect the knowledge level of adults over the age of 50 with
+        regards to social engineering attacks and ways to mitigate them.<br> 
+        During the course of your participation in this research you are being asked to complete an initial questionnaire/test to establish your knowledge base, then read through the education tool provided and finally complete a secondary questionnaire/test to determine if a significant change had occurred. . <br>
+        Before participating in this piece of research, please provide some brief information about yourself, and create a 5-digit code (made up of 2 letters and 3 numbers) to represent your contribution to this research. This code will allow your participation to be identified if you decide to remove consent for your contribution to be included in the research at a later date. If you wish for your responses to be removed from this research at any point,
+        please contact Joanna McLeod at the email address provided at the top of this form. 
+    </p>
+    <form name="consent" method="POST" data-netlify="true">
+        <p>As this research will address social engineering attacks (scams) participants are being asked to self-assess if they would be vulnerable to potentially being exposed to vulnerabilities, they may have that they were unaware of.<br>
+            If you feel that participating in this research could detrimentally affect yourself and your piece of mind, we ask that you please do not participate. Further information and links to resources can be found at the bottom of this consent form. <br>
+            <br>
+            <br>
+            
+            Name: <input type="text" class="form-control" placeholder="Enter your name"><br>
+            Age: <input type="text" class="form-control" placeholder="Enter your age"><br>
+            Gender: <input type="radio" name="Gender" value="Female">Female <input type="radio" name="Gender" value="Male"> Male<br>
+            Code: <input type="text" class="form-control" placeholder="Enter a 5 digit code"><br>
+            <label for="Level of online confidence"> Select how confident you are online</label>
+            <select id="Level of online confidence" name="Level of online confidence">
+                <option value="Not at all">Not at all</option>
+                <option value="Unsure">Unsure</option>
+                <option value="Fairly Confident">Fairly Confident</option>
+                <option value="Confident">Confident</option>
+                <option value="Extremely Confident"> Extremely Confident</option>
+            </select><br>
+
+            <input type="submit" value="Submit">
+       </p>
+    </form>
+    
+    <h3>Instructions for participation</h3>
+    <p>
+        Once you have given your consent for participation, please follow the links on each page until completing the second test. <br>
+        Please answer the questions in the first test to the best of your ability, then read through the information provided in the education tool.<br>
+        Once you have read through the education tool, complete the second test.<br>
+        <br>
+        Requirements for participation in this research are:<br>
+        Participants must be over the age of 50 and <br>
+        Not idenify as a vulnerable individual. <br>
+
+
+    </p>
+
+    <p>
+        Informed Consent: I agree to give my informed consent to participate in this research and have my results included in the analysis.
+    </p>
+    <form>
+        Consent: <input type="radio" name="consent" value="I_Consent">I Consent <input type="radio" name="consent" value="I_Don't_Consent"> I Don't Consent<br>
+    </form>
+    <p>
+        If you do not consent please close the web page now, you can find further information at the links below.
+        If you do consent to continue with this research please progress with the continue button below. 
+    </p>
+    <p>
+        LINKS TO MORE HELP AND INFORMATION WILL BE PUT HERE 
+    </p>
+    <nav class="navflex">
+        <ul>
+            <li><a href="first_test.html">Continue</a></li>
+        </ul>
+    </nav>
+
 </body>
