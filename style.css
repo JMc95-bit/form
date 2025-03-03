@@ -39,7 +39,8 @@ p{
 }
 
 form{
-    border-style: solid #5C415D;
+    border-style: solid ;
+    border-color: #5C415D;
     padding: 25px ;
     border-radius: 5px ;
     font-family: Arial, Helvetica, sans-serif;
