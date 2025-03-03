@@ -22,3 +22,8 @@ p{
 input[type="radio"] {
     margin-bottom: 10px;
 }
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #F34213;
+    border: none;
+    color: #Ced0ce ;
+}
