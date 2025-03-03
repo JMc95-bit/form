@@ -21,16 +21,16 @@
         Before participating in this piece of research, please provide some brief information about yourself, and create a 5-digit code (made up of 2 letters and 3 numbers) to represent your contribution to this research. This code will allow your participation to be identified if you decide to remove consent for your contribution to be included in the research at a later date. If you wish for your responses to be removed from this research at any point,
         please contact Joanna McLeod at the email address provided at the top of this form. 
     </p>
-    <form name="consent" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true">
         <p>As this research will address social engineering attacks (scams) participants are being asked to self-assess if they would be vulnerable to potentially being exposed to vulnerabilities, they may have that they were unaware of.<br>
             If you feel that participating in this research could detrimentally affect yourself and your piece of mind, we ask that you please do not participate. Further information and links to resources can be found at the bottom of this consent form. <br>
             <br>
             <br>
             
-            Name: <input type="text" class="form-control" placeholder="Enter your name"><br>
-            Age: <input type="text" class="form-control" placeholder="Enter your age"><br>
+            <label>Your Name: <input type="text" name="name" /></label><br>
+            <label>Age: <input type="text" name="age" /></label><br>
             Gender: <input type="radio" name="Gender" value="Female">Female <input type="radio" name="Gender" value="Male"> Male<br>
-            Code: <input type="text" class="form-control" placeholder="Enter a 5 digit code"><br>
+            <label>Code: <input type="text" name="code" placeholder="Enter a 5 digit code" /></label><br>
             <label for="Level of online confidence"> Select how confident you are online</label>
             <select id="Level of online confidence" name="Level of online confidence">
                 <option value="Not at all">Not at all</option>
@@ -60,8 +60,9 @@
     <p>
         Informed Consent: I agree to give my informed consent to participate in this research and have my results included in the analysis.
     </p>
-    <form>
-        Consent: <input type="radio" name="consent" value="I_Consent">I Consent <input type="radio" name="consent" value="I_Don't_Consent"> I Don't Consent<br>
+    <form name="contact" method="POST" data-netlify="true">
+        Consent: <input type="radio" name="consent" value="I_Consent">I Consent <input type="radio" name="consent" value="I_Do_not_Consent"> I Do not Consent<br>
+         <input type="submit" value="Submit">
     </form>
     <p>
         If you do not consent please close the web page now, you can find further information at the links below.
