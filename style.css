@@ -51,7 +51,7 @@ input[type="radio"] {
 }
 input[type=button], input[type=submit], input[type=reset] {
     background-color: #F34213;
-    padding: 25px ;
+    padding: 10px ;
     border: none;
     color: #Ced0ce ;
     font-family: Arial, Helvetica, sans-serif; 
