@@ -26,13 +26,13 @@ h3{
     width: 50%
 }
 
-ul{
+li{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif; 
     margin-bottom: 10px;
 }
 
-li{
+nav{
      background-color: #F34213;
     color: #Ced0ce ;
     font-family: Arial, Helvetica, sans-serif; 
